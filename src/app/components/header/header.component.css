@@ -1,0 +1,24 @@
+.nav-options {
+  /* color: black; */
+  margin: 0 2rem 0 2rem;
+  display: flex;
+  padding: 5px;
+  border-bottom: 1px solid whitesmoke;
+  /* margin-left: 20px;
+  margin-right: 20px; */
+}
+.nav-options a {
+  margin: auto;
+  text-decoration: none;
+}
+.nav-choices {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: medium;
+}
+a:hover {
+  color: #8f7e8f;
+}
+a:active {
+  transform: scale(0.98);
+}

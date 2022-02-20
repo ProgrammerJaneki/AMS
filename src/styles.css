@@ -1,0 +1,16 @@
+/* You can add global styles to this file, and also import other style files */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap");
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  /* padding: 0; */
+  /* box-sizing: border-box; */
+  background-color: #1d1425;
+  font-family: "Poppins", sans-serif;
+}
+
+/* .container {
+  margin: 0 20px 0 20px;
+} */

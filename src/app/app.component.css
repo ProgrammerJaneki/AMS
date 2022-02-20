@@ -1,0 +1,17 @@
+/* * {
+  margin: 0;
+} */
+
+/* .container {
+  margin: 0;
+  background-color: #1d1425;
+} */
+.body-container {
+  margin: 2rem;
+  border: 1px solid white;
+  padding: 30px;
+  border-radius: 10px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
