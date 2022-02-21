@@ -7,6 +7,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { AnimeComponent } from './components/anime/anime.component';
 import { BodyComponent } from './components/body/body.component';
 import { BodyContentComponent } from './components/body-content/body-content.component';
+import { NgImageSliderModule } from 'ng-image-slider';
 
 const appRoutes: Routes = [
   { path: '', component: HeaderComponent },
@@ -24,7 +25,8 @@ const appRoutes: Routes = [
   imports: [
     BrowserModule,
     FontAwesomeModule,
-    RouterModule.forRoot(appRoutes, { enableTracing: true })
+    RouterModule.forRoot(appRoutes, { enableTracing: true }),
+    NgImageSliderModule
   ],
   providers: [],
   bootstrap: [AppComponent]
